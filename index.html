@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李鹏程 - 产品经理</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo">LPC</div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link active" data-section="about">关于</a></li>
+                <li><a href="#experience" class="nav-link" data-section="experience">工作经历</a></li>
+                <li><a href="#projects" class="nav-link" data-section="projects">项目经历</a></li>
+                <li><a href="#ai" class="nav-link" data-section="ai">AI实践</a></li>
+                <li><a href="#skills" class="nav-link" data-section="skills">技能</a></li>
+                <li><a href="#education" class="nav-link" data-section="education">教育</a></li>
+            </ul>
+            <div class="nav-contact">
+                <a href="mailto:543444888@qq.com" class="contact-btn">联系我</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="菜单">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#about" data-section="about">关于</a></li>
+            <li><a href="#experience" data-section="experience">工作经历</a></li>
+            <li><a href="#projects" data-section="projects">项目经历</a></li>
+            <li><a href="#ai" data-section="ai">AI实践</a></li>
+            <li><a href="#skills" data-section="skills">技能</a></li>
+            <li><a href="#education" data-section="education">教育</a></li>
+        </ul>
+    </div>
+    <header class="hero" id="hero">
+        <div class="hero-bg"><div class="hero-grid"></div><div class="hero-particles" id="particles"></div></div>
+        <div class="hero-content">
+            <div class="hero-badge reveal-item">产品经理 / AI探索者</div>
+            <h1 class="hero-title"><span class="title-line reveal-item">李鹏程</span></h1>
+            <div class="hero-info reveal-item">
+                <span class="info-tag">男 · 37岁</span>
+                <span class="info-sep">|</span>
+                <span class="info-tag">成都</span>
+                <span class="info-sep">|</span>
+                <span class="info-tag">5年产品 + 4年研发</span>
+            </div>
+            <p class="hero-desc reveal-item">从代码到产品，从传统SaaS到AI应用<br>用9年积累的全栈能力，做有结果的产品</p>
+            <div class="hero-tags-bar">
+                <span class="tag-pill"><span class="tag-dot green"></span>党员</span>
+                <span class="tag-pill"><span class="tag-dot"></span>1988-12-27</span>
+                <span class="tag-pill"><span class="tag-dot"></span>本科学历</span>
+                <span class="tag-pill"><span class="tag-dot"></span>成都</span>
+            </div>
+            <div class="hero-cta reveal-item">
+                <a href="#experience" class="btn-primary">查看经历</a>
+                <a href="#ai" class="btn-outline">AI探索</a>
+            </div>
+        </div>
+        <div class="hero-scroll" id="scrollHint"><span>向下滚动</span><div class="scroll-arrow"></div></div>
+    </header>
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header"><span class="section-label">About</span><h2 class="section-title">关于我</h2></div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">4年开发出身，深知代码实现逻辑，能与研发团队无障碍沟通，准确评估技术方案与工期。</p>
+                    <p>转型产品经理后，主导过移动APP、PC后台系统、SaaS平台、开放API等多种产品形态，覆盖B端SaaS、C端用户、电商、后台管理系统的完整产品闭环。具备从需求分析、PRD撰写、原型设计到迭代上线的全流程把控能力。</p>
+                    <p>近2年专注AI产品方向，自部署研究主流AI平台，探索AI Agent在工作流中的应用场景，正在将AI能力融入产品设计思维，寻求AI产品经理方向的新发展。</p>
+                    <div class="personal-info-row">
+                        <div class="pinfo-item"><span class="pinfo-label">出生年月</span><span class="pinfo-val">1988年12月27日</span></div>
+                        <div class="pinfo-item"><span class="pinfo-label">政治面貌</span><span class="pinfo-val">中共党员</span></div>
+                        <div class="pinfo-item"><span class="pinfo-label">学历</span><span class="pinfo-val">本科学历</span></div>
+                        <div class="pinfo-item"><span class="pinfo-label">现居地</span><span class="pinfo-val">成都</span></div>
+                        <div class="pinfo-item"><span class="pinfo-label">期望职位</span><span class="pinfo-val">中高级产品经理</span></div>
+                        <div class="pinfo-item"><span class="pinfo-label">期望薪资</span><span class="pinfo-val">15-20K</span></div>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card reveal-card"><div class="card-num">37</div><div class="card-label">岁</div></div>
+                    <div class="about-card reveal-card"><div class="card-num">5+</div><div class="card-label">年产品经验</div></div>
+                    <div class="about-card reveal-card"><div class="card-num">4</div><div class="card-label">年研发背景</div></div>
+                    <div class="about-card reveal-card"><div class="card-num">20+</div><div class="card-label">个版本迭代</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section exp-section" id="experience">
+        <div class="container">
+            <div class="section-header"><span class="section-label">Experience</span><h2 class="section-title">工作经历</h2></div>
+            <div class="timeline">
+                <div class="timeline-item reveal-timeline">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header"><div class="timeline-role">AI产品探索 · 个人转型期</div><div class="timeline-date">2023.10 – 至今</div></div>
+                        <div class="timeline-company">自主学习与实践</div>
+                        <ul class="timeline-list">
+                            <li>系统学习大模型（LLM）原理、Agent架构、RAG检索增强生成等核心技术，建立AI产品从概念到落地的完整方法论认知</li>
+                            <li>自部署研究 OpenClaw、Coze（字节）、Dify、n8n 等主流AI应用与工作流平台，深入理解各平台能力边界与应用场景</li>
+                            <li>通过 vibe coding 独立推进钓鱼O2O平台从产品设计到前端开发，验证AI辅助开发的实际工程效率</li>
+                            <li>研究方向：AI Agent产品设计 / 工作流自动化 / RAG知识库搭建 / 智能体应用场景</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-timeline">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header"><div class="timeline-role">运营总监</div><div class="timeline-date">2023.03 – 2023.09</div></div>
+                        <div class="timeline-company">成都灰谷科技有限公司</div>
+                        <ul class="timeline-list">
+                            <li>制定公司产品年度及阶段性运营计划，协调资源落地执行，保证目标达成</li>
+                            <li>部门日常管理、团队培训与绩效考核，培养并留存核心骨干</li>
+                            <li>兼任产品负责人，主导产品路书编写，协调技术与业务团队，保证项目按期交付</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-timeline">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header"><div class="timeline-role">产品经理</div><div class="timeline-date">2017 – 2022.08（约5年）</div></div>
+                        <div class="timeline-company">炎黄东方（北京）健康科技有限公司</div>
+                        <ul class="timeline-list">
+                            <li>负责公司全线产品规划与设计，涵盖B端SaaS平台、C端APP、PC后台管理系统、PAD端等多元产品形态</li>
+                            <li>主导产品从需求分析、PRD撰写、原型设计、研发跟进到上线迭代的全生命周期管理，累计负责产品迭代版本超过20个</li>
+                            <li>协调研发、测试、售前团队，推动产品高质量交付；拓展第三方医疗健康资源，完善产品服务体系</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-timeline">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header"><div class="timeline-role">开发工程师</div><div class="timeline-date">2013.08 – 2017（约4年）</div></div>
+                        <div class="timeline-company">移动端开发</div>
+                        <ul class="timeline-list">
+                            <li>4年移动端开发经验，主要从事Android应用开发</li>
+                            <li>主导多个移动端产品从开发到上线的全流程，积累了扎实的研发能力与产品思维</li>
+                            <li>按项目计划高质量完成开发任务及单元测试，保证研发进度与质量</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header"><span class="section-label">Projects</span><h2 class="section-title">项目经历</h2></div>
+            <div class="projects-grid">
+                <div class="project-card reveal-project">
+                    <div class="project-header">
+                        <div class="project-icon">App</div>
+                        <div class="project-meta"><h3 class="project-name">和畅依APP（1.0–5.0）</h3><span class="project-role">产品经理 / 开发工程师 · 2017–2022.08</span></div>
+                    </div>
+                    <p class="project-desc">依托公司健康管理业务积累，主导设计并落地"辨识-评估-干预"三大服务闭环的移动端APP，覆盖Android/iOS双平台。集成体质辨识、脏腑辨识、经络辨识、健康档案等核心功能，同时服务B端机构客户及C端个人用户。</p>
+                    <div class="project-tags"><span>移动APP</span><span>Android/iOS</span><span>B+C端</span><span>健康管理</span></div>
+                </div>
+                <div class="project-card reveal-project">
+                    <div class="project-header">
+                        <div class="project-icon">SaaS</div>
+                        <div class="project-meta"><h3 class="project-name">中医药智能化服务平台（3.0–8.0）</h3><span class="project-role">产品经理 · 2017–2022.08</span></div>
+                    </div>
+                    <p class="project-desc">采用B/S架构+SaaS模式，为基层医疗卫生服务中心搭建中医药健康服务管理平台，对接HIS系统、随访管理、居民健康档案、中西医智能化设备等模块。主导平台从需求梳理到上线迭代的全过程，平台从3.0版本持续迭代至8.0，成为公司核心盈利产品。</p>
+                    <div class="project-tags"><span>SaaS平台</span><span>B/S架构</span><span>HIS对接</span><span>公共卫生</span></div>
+                </div>
+                <div class="project-card reveal-project">
+                    <div class="project-header">
+                        <div class="project-icon">Sys</div>
+                        <div class="project-meta"><h3 class="project-name">移动健康医院核心业务系统（1.0–3.0）</h3><span class="project-role">产品经理 · 2017–2022.08</span></div>
+                    </div>
+                    <p class="project-desc">核心业务系统是公司产品生态核心，集业务逻辑处理、核心数据、接口平台、电商系统、会员系统等于一体。对接公司所有软件终端、设备终端及第三方服务集成，主导功能规划、逻辑设计、原型输出与研发跟进，保证系统高质量上线。</p>
+                    <div class="project-tags"><span>核心系统</span><span>全栈产品</span><span>多端集成</span><span>电商+会员</span></div>
+                </div>
+                <div class="project-card reveal-project">
+                    <div class="project-header">
+                        <div class="project-icon">Sol</div>
+                        <div class="project-meta"><h3 class="project-name">医疗健康行业解决方案</h3><span class="project-role">产品经理 · 2017–2022.08</span></div>
+                    </div>
+                    <p class="project-desc">根据公司业务模式变化，定制化输出医疗健康行业解决方案，对接银行、保险、食品、铁路等行业的健康管理需求。深度服务乐普医疗、昆仑健康保险、齐商银行、中国太平、济南铁路局等头部客户，推动项目从需求沟通到落地交付。</p>
+                    <div class="project-tags"><span>行业解决方案</span><span>B端大客户</span><span>项目管理</span><span>资源整合</span></div>
+                </div>
+                <div class="project-card reveal-project">
+                    <div class="project-header">
+                        <div class="project-icon">EC</div>
+                        <div class="project-meta"><h3 class="project-name">悦齿度APP及后台管理系统</h3><span class="project-role">产品总监 · 2023.03–2023.09</span></div>
+                    </div>
+                    <p class="project-desc">主导B2C口腔健康电商平台产品设计，兼任产品经理与项目经理双重角色。负责产品全流程管理：需求分析、产品设计、研发跟进、测试验收、产品路书及运营计划落地，搭建后台管理系统支撑日常运营。</p>
+                    <div class="project-tags"><span>电商平台</span><span>B2C</span><span>后台系统</span><span>运营管理</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section ai-section" id="ai">
+        <div class="container">
+            <div class="section-header"><span class="section-label">AI Practice</span><h2 class="section-title">AI实践</h2></div>
+            <div class="ai-grid">
+                <div class="ai-main reveal-ai">
+                    <div class="ai-main-header"><div class="ai-badge">Vibe Coding</div><h3 class="ai-main-title">钓鱼O2O平台</h3><span class="ai-main-date">2024至今 · 开发中</span></div>
+                    <p class="ai-main-desc">面向钓鱼爱好者搭建的O2O服务平台，整合钓点预约、装备租售、赛事活动、社群交流等核心功能，目前MVP阶段持续迭代中。全程使用AI辅助开发，独立完成产品设计、原型输出与前端开发，探索并验证AI工具链在产品开发中的实际效率提升。</p>
+                    <div class="ai-tech">
+                        <div class="tech-item"><span class="tech-label">平台开发</span><span class="tech-val">Vibe Coding · 前端开发</span></div>
+                        <div class="tech-item"><span class="tech-label">智能体</span><span class="tech-val">Coze 智能客服 + 钓点推荐</span></div>
+                        <div class="tech-item"><span class="tech-label">核心功能</span><span class="tech-val">钓点预约 / 装备租售 / 社群 / 赛事</span></div>
+                    </div>
+                </div>
+                <div class="ai-side">
+                    <div class="ai-tech-card reveal-ai-tech">
+                        <h4>AI工具链研究</h4>
+                        <div class="tech-list">
+                            <div class="tech-tag-item"><span class="tech-name">OpenClaw</span><span class="tech-status">自部署研究</span></div>
+                            <div class="tech-tag-item"><span class="tech-name">Coze（字节）</span><span class="tech-status">智能体搭建</span></div>
+                            <div class="tech-tag-item"><span class="tech-name">Dify</span><span class="tech-status">自部署研究</span></div>
+                            <div class="tech-tag-item"><span class="tech-name">n8n</span><span class="tech-status">工作流自动化</span></div>
+                            <div class="tech-tag-item"><span class="tech-name">Claude / ChatGPT</span><span class="tech-status">日常工作流</span></div>
+                        </div>
+                    </div>
+                    <div class="ai-knowledge-card reveal-ai-tech">
+                        <h4>技术认知</h4>
+                        <div class="knowledge-list"><span>LLM大模型原理</span><span>Agent架构设计</span><span>RAG检索增强</span><span>工作流自动化</span><span>AI产品选型评估</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header"><span class="section-label">Skills</span><h2 class="section-title">技能专长</h2></div>
+            <div class="skills-grid">
+                <div class="skill-category reveal-skill"><div class="skill-icon">AI</div><h3>AI产品认知</h3><ul class="skill-list"><li>Agent架构原理</li><li>RAG检索增强</li><li>工作流自动化</li><li>Coze · Dify · n8n 自部署研究</li><li>LLM应用场景评估</li><li>AI产品选型</li></ul></div>
+                <div class="skill-category reveal-skill"><div class="skill-icon">PM</div><h3>产品能力</h3><ul class="skill-list"><li>需求分析</li><li>PRD &amp; 原型设计</li><li>产品路书</li><li>数据分析</li><li>用户研究</li><li>竞品分析 · 迭代规划</li></ul></div>
+                <div class="skill-category reveal-skill"><div class="skill-icon">Tool</div><h3>工具</h3><ul class="skill-list"><li>Axure RP</li><li>墨刀</li><li>XMind</li><li>SQL</li><li>PPT · Excel</li><li>Claude · ChatGPT</li></ul></div>
+                <div class="skill-category reveal-skill"><div class="skill-icon">Dev</div><h3>技术背景</h3><ul class="skill-list"><li>4年 Android 开发（Java/Kotlin）</li><li>前后端架构理解</li><li>API接口设计</li><li>数据库结构</li><li>技术方案评估</li></ul></div>
+                <div class="skill-category skill-industry reveal-skill"><div class="skill-icon">Ind</div><h3>行业经验</h3><ul class="skill-list"><li>互联网医疗</li><li>AI应用</li><li>B2B SaaS</li><li>电商</li><li>移动应用</li><li>开放平台</li></ul></div>
+            </div>
+        </div>
+    </section>
+    <section class="section edu-section" id="education">
+        <div class="container">
+            <div class="section-header"><span class="section-label">Education</span><h2 class="section-title">教育经历</h2></div>
+            <div class="edu-grid">
+                <div class="edu-card reveal-edu"><div class="edu-year">本科</div><h3 class="edu-school">黑龙江科技大学</h3><span class="edu-period">2010 – 2012</span></div>
+                <div class="edu-card reveal-edu"><div class="edu-year">大专</div><h3 class="edu-school">七台河职业学院</h3><span class="edu-period">2006 – 2009</span></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-cta">
+                    <h2 class="footer-title">准备好聊聊了吗？</h2>
+                    <p class="footer-sub">期待与优秀团队一起，做出有价值的产品</p>
+                    <div class="footer-links">
+                        <a href="mailto:543444888@qq.com" class="footer-link-item"><span class="link-icon">&#9993;</span><span>543444888@qq.com</span></a>
+                        <span class="footer-link-item"><span class="link-icon">&#9679;</span><span>成都</span></span>
+                    </div>
+                </div>
+                <div class="footer-copy"><span>© 2026 李鹏程 · 产品经理</span></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
